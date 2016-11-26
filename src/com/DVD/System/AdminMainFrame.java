@@ -123,6 +123,10 @@ private void UpdateSales(){
         JOptionPane.showMessageDialog(null, e);
     }
 }
+
+/**
+ * Delete The DVD table from database
+ */
 private void DVDdeleteTable(){
     try{
            String ID = txt_deletedvd.getText();
