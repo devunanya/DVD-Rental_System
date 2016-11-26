@@ -18,7 +18,7 @@ public class databaseConnection {
     
     public static Connection ConnecrDb(){
         try{
-            File db = new File("DVD_Rental_System_Database.sqlite");
+            File db = new File("DVD_Rental_System_DB.sqlite");
        
        File dbpath = db.getAbsoluteFile();
        String dbpaths = dbpath.getAbsolutePath();
